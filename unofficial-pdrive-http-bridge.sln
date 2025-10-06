@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unofficial-pdrive-http-bridge", "unofficial-pdrive-http-bridge\unofficial-pdrive-http-bridge.csproj", "{0D0813DF-03CD-8D45-60FB-049E8DC1B090}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D0813DF-03CD-8D45-60FB-049E8DC1B090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0813DF-03CD-8D45-60FB-049E8DC1B090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0813DF-03CD-8D45-60FB-049E8DC1B090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0813DF-03CD-8D45-60FB-049E8DC1B090}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A0191A1-01B5-406B-9D89-3AE3C87F84CA}
+	EndGlobalSection
+EndGlobal
