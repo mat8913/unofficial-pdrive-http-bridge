@@ -292,9 +292,15 @@ public sealed class Program(
 
             startPos = range.Ranges.FirstOrDefault()!.From ?? 0;
             endPos = range.Ranges.FirstOrDefault()!.To ?? totalSize - 1;
+
+            if (endPos >= totalSize)
+            {
+                endPos = totalSize - 1;
+            }
+
             contentSize = endPos.Value + 1 - startPos;
 
-            if (startPos < 0 || startPos > endPos || endPos >= totalSize || contentSize < 0)
+            if (startPos < 0 || startPos > endPos || contentSize < 0)
             {
                 await RangeNotSatisfiableAsync();
                 return;
